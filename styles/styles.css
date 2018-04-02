@@ -1,0 +1,13 @@
+.about {
+  background-color: #2E2923;
+  border: solid 1px red;
+}
+
+.portfolio {
+  background-color: white;
+  border: solid 1px orange;
+}
+
+.social {
+  border: solid 1px yellow;
+}
