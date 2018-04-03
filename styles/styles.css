@@ -1,6 +1,41 @@
-.about {
+.container-fluid {
+  font-family: 'Lato', sans-serif;
+
+}
+
+.home {
   background-color: #2E2923;
   border: solid 1px red;
+  width: 100%;
+}
+
+.home img {
+  height: 350px;
+  width: 350px;
+  margin-left: 55px;
+}
+
+.about {
+  background-color: #DAD3C9;
+  border: solid 1px red;
+  width: 100%;
+}
+
+h1.top-text {
+  color: white;
+  font-size: 72px;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-left: 55px;
+}
+
+h1.bottom-text {
+  color: white;
+  font-size: 72px;
+  font-weight: lighter;
+  margin-left: 285px;
+  margin-bottom: 20px;
+
 }
 
 .portfolio {
