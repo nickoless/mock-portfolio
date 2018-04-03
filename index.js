@@ -3,6 +3,8 @@ const app = express();
 
 app.set("view engine", "ejs");
 app.use("/styles", express.static(__dirname + "/styles"));
+app.use("/scripts", express.static(__dirname + "/scripts"));
+
 
 app.get("/", (req, res) => {
   res.render("main");
