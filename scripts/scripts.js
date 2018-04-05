@@ -1,12 +1,6 @@
 
 $( document ).ready(function() {
 
-// // Change "active" section in navbar
-// // BROKEN NEEDS TO BE FIXED
-//   $(".nav-item").on("click", function(){
-//     $(".nav-item").find(".active").removeClass("active");
-//     $(this).addClass("active");
-//  });
 
 
   //  Smooth scrolling a la https://css-tricks.com/snippets/jquery/smooth-scrolling/

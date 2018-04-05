@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  height: 100%;
   position: relative;
 }
 
@@ -50,7 +51,14 @@ body {
   bottom:0;
   color:#fff;
   height:150px;
-  font-size: 72px;
+  font-size: 5em;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .home {
+    font-size: 0em;
+  }
 }
 
 .about {
@@ -62,25 +70,49 @@ body {
 }
 
 .skills {
-  /* border: solid 1px orange; */
-  /* padding-top: 25px; */
   padding-bottom: 25px;
+  padding-left: 25px;
 }
 
+
 i {
-  font-size: 72px;
+  font-size: 5em;
   padding: 7.5px;
 }
+
+@media only screen and (max-width: 768px) {
+  i {
+      font-size: 3em;
+  }
+}
+
 .portfolio {
   margin: auto;
-  background-color: white;
-  border: solid 1px orange;
+  background-color: #cecac3;
   height: 100vh;
   padding: 75px 25px 25px 25px;
 
 }
 
-.social {
-  border: solid 1px yellow;
-  background-color: grey;
+.portfolio img {
+  height: 90%;
+  width: 90%;
+  padding-bottom: 2em;
+  border-radius: 2px;
+}
+
+.contact {
+  margin: auto;
+  background-color: #1d1916;
+  color: white;
+
+  padding: 25px 25px 25px 50px;
+}
+
+.contact .icons {
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
