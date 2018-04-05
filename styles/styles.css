@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  position: relative;
 }
 
 .container-fluid {
@@ -32,6 +33,7 @@ body {
   padding-left: 0px;
   padding-right: 0px;
   text-align: center;
+  width: 100%;
 }
 
 .home img {
@@ -49,24 +51,28 @@ body {
   color:#fff;
   height:150px;
   font-size: 72px;
-
 }
 
 .about {
   background-color: #1d1916;
+  margin: auto;
   color: white;
   height: 100vh;
   padding: 75px 25px 25px 25px;
 }
 
 .skills {
-  border: solid 1px orange;
+  /* border: solid 1px orange; */
+  /* padding-top: 25px; */
+  padding-bottom: 25px;
 }
 
 i {
-  font-size: 48px;
+  font-size: 72px;
+  padding: 7.5px;
 }
 .portfolio {
+  margin: auto;
   background-color: white;
   border: solid 1px orange;
   height: 100vh;
