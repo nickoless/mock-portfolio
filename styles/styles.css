@@ -12,6 +12,10 @@ body {
   background-color: transparent;
 }
 
+.nav-link:hover {
+  font-weight: bold;
+}
+
 .top-nav-collapse {
   background-color: #5a676f;
 }
@@ -55,7 +59,14 @@ body {
   margin: auto;
   color: white;
   height: auto;
-  padding: 25px 10px 25px 10px;
+  padding: 75px 10px 25px 10px;
+  /* height: 100vh; */
+}
+
+@media only screen and (max-width: 500px) {
+  .about h1 { 
+    text-align: center;
+  }
 }
 
 .skills {
@@ -71,9 +82,13 @@ body {
 .portfolio {
   margin: auto;
   background-color: #cecac3;
-  /* height: 100vh; */
   padding: 75px 25px 25px 25px;
+}
 
+@media only screen and (max-width: 500px) {
+  .portfolio h1 { 
+    text-align: center;
+  }
 }
 
 .portfolio img {
@@ -81,15 +96,17 @@ body {
   width: 90%;
   padding-bottom: 2em;
   border-radius: 2px;
+  cursor: pointer;
 }
 
 .contact {
   margin: auto;
   background-color: #1d1916;
   color: white;
-
   padding: 25px 25px 25px 25px;
 }
+
+
 
 .contact .social {
   padding-left: 15px;
@@ -97,10 +114,19 @@ body {
   color: white;
 }
 
+@media only screen and (max-width: 500px) {
+  .contact .social {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  }
+}
+
 .contact .social:hover {
   font-weight: bold;
 }
 
-.nav-link:hover {
-  font-weight: bold;
+@media only screen and (min-width: 768px) {
+  .about, .portfolio { 
+    height: 100vh;
+  }
 }
