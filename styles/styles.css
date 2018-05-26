@@ -85,19 +85,20 @@ body {
   padding: 75px 25px 25px 25px;
 }
 
+.portfolio img {
+  display: block;
+  height: auto;
+  width: 100%;
+  padding-bottom: 2em;
+  /* border-radius: 2px; */
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 500px) {
   .portfolio h1 { 
     text-align: center;
   }
-}
-
-.portfolio img {
-  height: 90%;
-  width: 90%;
-  padding-bottom: 2em;
-  border-radius: 2px;
-  cursor: pointer;
-}
+} 
 
 .contact {
   margin: auto;
@@ -124,7 +125,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .about, .portfolio { 
+  .about { 
     height: 100vh;
   }
 }

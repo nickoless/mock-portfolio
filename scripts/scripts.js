@@ -1,8 +1,6 @@
 
 $( document ).ready(function() {
 
-
-
   //  Smooth scrolling a la https://css-tricks.com/snippets/jquery/smooth-scrolling/
   $('a[href*="#"]')
   .not('[href="#"]')
@@ -33,4 +31,6 @@ $( document ).ready(function() {
     }
   });
   
+  new WOW().init();
+  $( ".wow" ).addClass( "fadeInUp" )
 });
