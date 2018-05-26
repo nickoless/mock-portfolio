@@ -12,6 +12,12 @@ body {
   background-color: transparent;
 }
 
+@media only screen and (max-width: 500px) {
+  .navbar { 
+    background-color: #5a676f;
+  }
+}
+
 .nav-link:hover {
   font-weight: bold;
 }
@@ -41,16 +47,14 @@ body {
   right:0;
   bottom:0;
   color:#fff;
-  height: 10vh;
+  height: 5vh;
   font-size: 3em;
-  /* visibility: hidden; */
 }
 
 @media only screen and (min-width: 500px) {
-  .home h1 { 
+  .home-text { 
     height: 150px;
     font-size: 5em;
-    visibility: visible; 
   }
 }
 
@@ -60,7 +64,6 @@ body {
   color: white;
   height: auto;
   padding: 75px 10px 25px 10px;
-  /* height: 100vh; */
 }
 
 @media only screen and (max-width: 500px) {
@@ -82,16 +85,9 @@ body {
 .portfolio {
   margin: auto;
   background-color: #cecac3;
+  padding: 0px;
   padding: 75px 25px 25px 25px;
-}
-
-.portfolio img {
-  display: block;
-  height: auto;
-  width: 100%;
-  padding-bottom: 2em;
-  /* border-radius: 2px; */
-  cursor: pointer;
+  /* text-align: center; */
 }
 
 @media only screen and (max-width: 500px) {
@@ -99,6 +95,36 @@ body {
     text-align: center;
   }
 } 
+
+.view {
+  /* text-align: center; */
+  display: block;
+  padding: 0;
+  margin: auto;
+  margin-bottom: 5vh;
+  max-width: 30vw;
+  cursor: pointer;
+  border-radius: 3px
+}
+
+@media only screen and (max-width: 500px) {
+  .view { 
+    max-width: 90vw;
+    margin-bottom: 2vh;
+  }
+} 
+
+.view img {
+  display: block;
+  /* height: auto; */
+  width: 50%
+  /* padding-right: 0;; */
+
+  padding-bottom: 10px;
+  /* border-radius: 2px; */
+  cursor: pointer;
+  padding: 0px;
+}
 
 .contact {
   margin: auto;
