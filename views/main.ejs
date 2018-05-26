@@ -25,16 +25,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#home">HOME</a>
+            <a class="effect-underline nav-link" href="#home">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">ABOUT</a>
+            <a class="effect-underline nav-link" href="#about">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+            <a class="effect-underline nav-link" href="#portfolio">PORTFOLIO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">CONTACT</a>
+            <a class="effect-underline nav-link" href="#contact">CONTACT</a>
           </li>
         </ul>
       </div>
@@ -49,16 +49,17 @@
 
       <!-- ABOUT -->
       <div id="about" class="row about">
-        <div class="col">
+        <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
           <h1>ABOUT</h1><br/>
           <h5>Seeking opportunities.</h5><br/>
           <p>Junior developer looking to get my feet wet</p>
           <p>Born and raised in Victoria, BC. Passionate about the arts
-            - I love creative ventures. I am currently on a working holiday in Berlin.</p>
+            and anything remotely creative. Was a Vancouverite for three years, but I am currently on a working holiday
+            attempting to shake things up in Berlin.</p>
           <p>When I am not coding, I enjoy illustrating, photography,
              playing video games, watching movies, and attending concerts.</p></br></br>
         </div>
-        <div class="col">
+        <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
           <div class="skills">
             <h4>LANGUAGES</h4><br/>
             <i class="wow fadeInUp icon devicon-javascript-plain"></i>
@@ -87,29 +88,40 @@
       <div id="portfolio" class="portfolio">
         <h1>PORTFOLIO</h1><br/>
         <div class="row text-center">
-          <div class="view overlay wow fadeInUp col col-lg-4 col-md-4 col-sm-6 col-12">
-            <a href="https://github.com/nickoless/moody"><img class="img-fluid" src="public/moody.png" /></>
-            <div class="mask flex-center rgba-stylish-strong">
+          <div onclick="window.location='https://github.com/nickoless/moody'" class="view overlay wow fadeInUp col col-lg-4 col-md-6 col-sm-6 col-12">
+            <img class="img-fluid" src="public/moody.png"/>
+            <div class="mask flex-center rgba-black-strong">
+              <div>
                 <p class="white-text">MOODY</p>
-                <p class="white-text">Returns custom playlist based on emotion or environment variables.</p>
-            </div>
+                <p class="white-text">Returns custom playlists based on emotions or objects in the environment</p>
+              </div>
+            </div>    
           </div>
-            <div class="view overlay wow fadeInUp col col-lg-4 col-md-4 col-sm-6 col-12">
-              <a href="https://github.com/nickoless/Chatty"><img class="img-fluid" src="public/chatty.png"/></a>
-              <div class="mask flex-center rgba-stylish-strong">
-                <p class="white-text">Strong overlay 2</p>
+            <div onclick="window.location='https://github.com/nickoless/chatty'" class="view overlay wow fadeInUp col col-lg-4 col-md-6 col-sm-6 col-12">
+              <img class="img-fluid" src="public/chatty.png"/>
+              <div class="mask flex-center rgba-black-strong">
+                <div>
+                  <p class="white-text">CHATTY</p>
+                  <p class="white-text">Real-time chat app</p>
+                </div>
               </div>
             </div>
-          <div class="view overlay wow fadeInUp col col-lg-4 col-md-4 col-sm-6 col-12">
-            <a href="https://github.com/nickoless/inDecision"><img class="img-fluid" src="public/indecision.png"/></a>
-            <div class="mask flex-center rgba-stylish-strong">
-              <p class="white-text">Strong overlay 3</p>
+          <div onclick="window.location='https://github.com/nickoless/inDecision'" class="view overlay wow fadeInUp col col-lg-4 col-md-6 col-sm-6 col-12">
+            <img class="img-fluid" src="public/indecision.png"/>
+            <div class="mask flex-center rgba-black-strong">
+              <div>
+                <p class="white-text">INDECISION</p>
+                <p class="white-text">Voting app to aid people in making a decision</p>
+              </div>
             </div>
           </div> 
-          <div class="view overlay wow fadeInUp col col-lg-4 col-md-4 col-sm-6 col-12">
-            <a href="https://github.com/nickoless/quote-generator"><img class="img-fluid" src="public/quote.png"/></a>
-            <div class="mask flex-center rgba-stylish-strong">
-              <p class="white-text">Strong overlay 4</p>
+          <div onclick="window.location='https://github.com/nickoless/quote-generator'" class="view overlay wow fadeInUp col col-lg-4 col-md-6 col-sm-6 col-12">
+            <img class="img-fluid" src="public/quote.png"/>
+            <div class="mask flex-center rgba-black-strong">
+              <div>
+                <p class="white-text">QUOTE ME</p>
+                <p class="white-text">Simple app that generates Simpsons quotes</p>
+              </div>
             </div>
           </div> 
         </div>
@@ -119,11 +131,12 @@
       <div id="contact" class="contact">
         <h3 class="text-center">CONTACT</h3>
         <div class='text-center'>
-          <a class="social" href="https://github.com/nickoless">GITHUB</span>
-          <a class="social" href="https://www.linkedin.com/in/nickoless/">LINKEDIN</span></a>
-          <a class="social" href="mailto:nickoless.lee@gmail.com">EMAIL</span></a>
-          <a class="social" href="https://www.instagram.com/orientalshrug">INSTAGRAM</span></a>
-          <a class="social" href="https://500px.com/orientalshrug">500PX</span></a>
+          <a class="effect-underline social" href="https://github.com/nickoless">GITHUB</a>
+          <a class="effect-underline social" href="https://www.linkedin.com/in/nickoless/">LINKEDIN</a>
+          <a class="effect-underline social" href="mailto:nickoless.lee@gmail.com">EMAIL</a>
+          <a class="effect-underline social" href="https://www.instagram.com/orientalshrug">INSTAGRAM</a>
+          <a class="effect-underline social" href="https://500px.com/orientalshrug">500PX</a>
+          <p></p>
         </div>
       </div>
     </div>
